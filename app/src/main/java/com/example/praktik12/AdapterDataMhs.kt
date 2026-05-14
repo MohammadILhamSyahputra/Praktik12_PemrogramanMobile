@@ -52,7 +52,7 @@ class AdapterDataMhs (
                 mainActivity.binding.edNim.setText(data["nim"])
                 mainActivity.binding.edNamaMhs.setText(data["nama"])
                 mainActivity.binding.edAlamat.setText(data["alamat"])
-                if (data["jk"] == "laki-laki") mainActivity.binding.rbL.isChecked = true
+                if (data["jk"] == "Laki-laki") mainActivity.binding.rbL.isChecked = true
                 else mainActivity.binding.rbP.isChecked = true
                 //menampilkan gambar
                 Picasso.get().load(data["url"])
